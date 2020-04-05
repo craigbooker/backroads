@@ -1,5 +1,6 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 export default function error() {
-  return <div>Oops! It's a dead end.</div>
+  return <Layout>Oops! It's a dead end.</Layout>
 }

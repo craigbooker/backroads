@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react"
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa"
 
 export default [
   {
     icon: <FaFacebook />,
-    url: 'https://facebook.com'
-  }
+    url: "https://facebook.com",
+  },
   {
     icon: <FaTwitterSquare />,
-    url: 'https://twitter.com'
-  }
-  
+    url: "https://twitter.com",
+  },
 ]

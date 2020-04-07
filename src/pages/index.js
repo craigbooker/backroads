@@ -1,10 +1,15 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import { FaAdobe } from "react-icons/fa"
+import SimpleHero from "../components/SimpleHero"
+import Banner from '../components/Banner'
 
 export default () => (
   <Layout>
-    <div>Hello from backroads</div>
+    <SimpleHero>
+      <Banner title="continue exploring" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, rem." >
+      <Link to="/tours" className="btn-white">explore tours</Link>
+      </Banner> 
+    </SimpleHero> 
   </Layout>
 )

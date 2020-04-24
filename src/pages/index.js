@@ -11,7 +11,7 @@ import FeaturedTours from "../components/Home/FeaturedTours"
 
 export default ({ data }) => (
   <Layout>
-    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+    <StyledHero home="true">
       <Banner
         title="continue exploring"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, rem."

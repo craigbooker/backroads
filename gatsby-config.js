@@ -7,10 +7,9 @@ module.exports = {
     description:
       "Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine &say yes to adventure.",
     author: "@craigbooker",
-    data: {
-      name: "john",
-      age: 24,
-    },
+    twitterUsername: "@craigbooker",
+    image: "/og-image.jpg",
+    siteUrl: "https://elastic-sinoussi-88a420.netlify.app",
   },
   plugins: [
     {

@@ -12,7 +12,7 @@ import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="home" description="this is description" />
+    <SEO title="Home" description="this is description" />
     <StyledHero home="true">
       <Banner
         title="continue exploring"
